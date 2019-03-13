@@ -1,0 +1,1192 @@
+{
+  "galleries": [
+    {
+      "firstPhotoId": "EgyptianGallery_Entry",
+      "firstPhotoRotation": 17.5,
+      "sphereRotationY": 90,
+      "roomNumber": "4",
+      "roomTitle": "To Egyptian Sculpture",
+      "uri": "equirects/EgyptianGallery_Entry.jpg"
+    },
+    {
+      "firstPhotoId": "Rm61-63_2",
+      "firstPhotoRotation": 52.5,
+      "sphereRotationY": 90,
+      "roomNumber": "61",
+      "roomTitle": "To the Tomb-chapel of Nebamun",
+      "uri": "equirects/Rm61-63_2.jpg"
+    },
+    {
+      "firstPhotoId": "Rm61-63_5",
+      "firstPhotoRotation": -180,
+      "sphereRotationY": -180,
+      "roomNumber": "62",
+      "roomTitle": "To Egyptian death and afterlife: Mummies",
+      "uri": "equirects/Rm61-63_5.jpg"
+    },
+    {
+      "firstPhotoId": "Rm61-63_10",
+      "firstPhotoRotation": 30,
+      "sphereRotationY": 0,
+      "roomNumber": "63",
+      "roomTitle": "To Egyptian death and afterlife: Mummies",
+      "uri": "equirects/Rm61-63_10.jpg"
+    }
+  ],
+  "ambientAudio": {
+    "4_introduction_EN": {
+      "autoPlay": true,
+      "baseUri": "audio/4_introduction_EN",
+      "loop": false,
+      "panelTitle": "Marcel Murée",
+      "panelSubtitle": "Curator, Department of Ancient Egypt and Sudan",
+      "panelDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "volume": 1
+    },
+    "61_introduction_en": {
+      "autoPlay": true,
+      "baseUri": "audio/61_introduction_en",
+      "loop": false,
+      "panelTitle": "John Taylor",
+      "panelSubtitle": "Curator, Department of Ancient Egypt and Sudan",
+      "panelDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "volume": 1
+    },
+    "62_introduction_en": {
+      "autoPlay": true,
+      "baseUri": "audio/62_introduction_en",
+      "loop": false,
+      "panelTitle": "John Taylor",
+      "panelSubtitle": "Curator, Department of Ancient Egypt and Sudan",
+      "panelDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "volume": 1
+    },
+    "63_introduction_en": {
+      "autoPlay": true,
+      "baseUri": "audio/63_introduction_en",
+      "loop": false,
+      "panelTitle": "John Taylor",
+      "panelSubtitle": "Curator, Department of Ancient Egypt and Sudan",
+      "panelDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "volume": 1
+    }
+  },
+  "photos": {
+    "EgyptianGallery_Entry": {
+      "rotationOffset": 0,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_EntryNoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_EntryNoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_EntryNoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_EntryNoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_EntryNoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_EntryNoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -2.12,
+          "rotateX": -8.2,
+          "linkedPhotoId": "EgyptianGallery_2"
+        }
+      ]
+    },
+    "EgyptianGallery_2": {
+      "rotationOffset": 87.579999999584,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_2NoCameras_50MP0.jpg",
+        "cubemaps/EgyptianGallery_2NoCameras_50MP1.jpg",
+        "cubemaps/EgyptianGallery_2NoCameras_50MP2.jpg",
+        "cubemaps/EgyptianGallery_2NoCameras_50MP3.jpg",
+        "cubemaps/EgyptianGallery_2NoCameras_50MP4.jpg",
+        "cubemaps/EgyptianGallery_2NoCameras_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 92.279999932774,
+          "rotateX": -6.8800000078435,
+          "linkedPhotoId": "EgyptianGallery_Entry"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 0,
+          "rotateX": -6.82000006571386,
+          "linkedPhotoId": "EgyptianGallery_3"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -90,
+          "rotateX": -4.020000294160532,
+          "linkedPhotoId": "EgyptianGallery_4"
+        },
+        {
+          "title": "Statue of Amenhotep III",
+          "description": "The pose and iconography repeat those of the statue on the left. Both come from the king's mortuary temple in Western Thebes. It housed hundreds of statues of himself and the gods. Several more are displayed in this gallery. The temple, one of Egypt's largest, stood on the border between desert and fertile land west of the River Nile. It accommodated the ruler's posthumous offering cult. His tomb lies miles away, in a secluded desert valley.",
+          "type": "model",
+          "text1":"Granodiorite",
+          "text2":"18th Dynasty",
+          "text3":"1390–1352 BC",
+          "origin": "Temple of Amenhotep III, Thebes",
+          "rotateY": -103.804854705234,
+          "rotateX": 2.061136049948562,
+          "model": "models/Amenhotep.obj",
+          "texture": "models/Amenhotep.jpg",
+          "material": "models/Amenhotep.mtl",
+          "scale": 1,
+          "rotation": [0,0,0],
+          "translation": [0,-7,-25]
+        }
+      ]
+    },
+    "EgyptianGallery_3": {
+      "rotationOffset": -49,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_3NoCameras_50MP0.jpg",
+        "cubemaps/EgyptianGallery_3NoCameras_50MP1.jpg",
+        "cubemaps/EgyptianGallery_3NoCameras_50MP2.jpg",
+        "cubemaps/EgyptianGallery_3NoCameras_50MP3.jpg",
+        "cubemaps/EgyptianGallery_3NoCameras_50MP4.jpg",
+        "cubemaps/EgyptianGallery_3NoCameras_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -24.859999601753,
+          "rotateX": -6.2399999448846,
+          "linkedPhotoId": "EgyptianGallery_2"
+        }
+      ]
+    },
+    "EgyptianGallery_4": {
+      "rotationOffset": -93.49999995934,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_4NoCameras_50MP0.jpg",
+        "cubemaps/EgyptianGallery_4NoCameras_50MP1.jpg",
+        "cubemaps/EgyptianGallery_4NoCameras_50MP2.jpg",
+        "cubemaps/EgyptianGallery_4NoCameras_50MP3.jpg",
+        "cubemaps/EgyptianGallery_4NoCameras_50MP4.jpg",
+        "cubemaps/EgyptianGallery_4NoCameras_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -83.459999880577,
+          "rotateX": -6.1000000963056,
+          "linkedPhotoId": "EgyptianGallery_2"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 95.53999995934,
+          "rotateX": -8.4,
+          "linkedPhotoId": "EgyptianGallery_6"
+        },
+        {
+          "type": "textblock",
+          "title": "Egyptian Sculpture",
+          "text": "2686 BC – AD 395\n\nThe ancient Egyptian civilisation lasted for over 3000 years. Most of the evidence that survives today comes from temples and tombs, which were built to endure the centuries.\n\nIn this gallery you will see some of the British Museum’s best-known and most spectacular objects, including colossal statues of Egypt’s most powerful kings and the famous Rosetta Stone.\n\nThe objects in this gallery are laid out chronologically. They date from the Old Kingdom to the Roman Period.",
+          "rotateY": 155,
+          "rotateX": 0.13132718396910548,
+          "width": 1.5,
+          "height": 1.5
+        },
+        {
+          "title": "King Amenhotep III as a Lion (left)",
+          "description": "This statue and its companion declare the king’s might by representing him as a lion. Pharaohs were often shown as a sphinx with the body of a lion, but the full lion image is rare. An inscription on the chest, added by Amenhotep IV, calls the king a ‘lion of rulers, wild when he sees his enemies tread his path’. The sculptures are famed for their realistic anatomical detail and depart from the frontality of most Egyptian statues. The eyes were originally inlaid.",
+          "type": "model",
+          "text1":"Red Granite",
+          "text2":"18th Dynasty",
+          "text3":"1390–1352 BC",
+          "origin": "Napata (Gebel Barkal, Sudan); originally from Soleb (Sudan)",
+          "rotateY": 133.62199833767,
+          "rotateX": -16.664999906833,
+          "model": "models/left_lion.obj",
+          "material": "models/leftlion.mtl",
+          "texture": "models/leftlion.jpg",
+          "scale": 3.5,
+          "rotation": [0,95,0],
+          "translation": [0,0,-50]
+        },
+        {
+          "title": "King Amenhotep III as a Lion (right)",
+          "description": "Red granite statue of recumbent lion: the inscriptions are incised on the breast of the lion, and on the upper surface, sides and ends of the pedestal. It is a dedicatory text of Tutankhamun on pedestal. The text names Amanislo on the chest.",
+          "type": "model",
+          "text1":"Red Granite",
+          "text2":"18th Dynasty",
+          "text3":"1390–1352 BC",
+          "origin": "Napata (Gebel Barkal, Sudan); originally from Soleb (Sudan)",
+          "rotateY": 56.031200777636,
+          "rotateX": -15.388499113604,
+          "model": "models/right_lion.obj",
+          "material": "models/rightlion.mtl",
+          "texture": "models/rightlion.jpg",
+          "scale": 3.5,
+          "rotation": [0,190,0],
+          "translation": [0,0,-60]
+        },
+        {
+          "title": "Statue of Amenhotep III",
+          "description": "The pose and iconography repeat those of the statue on the left. Both come from the king's mortuary temple in Western Thebes. It housed hundreds of statues of himself and the gods. Several more are displayed in this gallery. The temple, one of Egypt's largest, stood on the border between desert and fertile land west of the River Nile. It accommodated the ruler's posthumous offering cult. His tomb lies miles away, in a secluded desert valley.",
+          "type": "model",
+          "text1":"Granodiorite",
+          "text2":"18th Dynasty",
+          "text3":"1390–1352 BC",
+          "origin": "Temple of Amenhotep III, Thebes",
+          "rotateY": -55.804854705234,
+          "rotateX": 2.061136049948562,
+          "model": "models/Amenhotep.obj",
+          "texture": "models/Amenhotep.jpg",
+          "material": "models/Amenhotep.mtl",
+          "scale": 1,
+          "rotation": [0,0,0],
+          "translation": [0,-7,-25]
+        }
+      ]
+    },
+    "EgyptianGallery_6": {
+      "rotationOffset": -84.960000285916,
+      "uri": [
+        "cubemaps/EgyptianGallery_6NoCameras_50MP0.jpg",
+        "cubemaps/EgyptianGallery_6NoCameras_50MP1.jpg",
+        "cubemaps/EgyptianGallery_6NoCameras_50MP2.jpg",
+        "cubemaps/EgyptianGallery_6NoCameras_50MP3.jpg",
+        "cubemaps/EgyptianGallery_6NoCameras_50MP4.jpg",
+        "cubemaps/EgyptianGallery_6NoCameras_50MP5.jpg"
+      ],
+      "ambientAudioId": "4_introduction_EN",
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 272.58000028925,
+          "rotateX": -6.9799999871174,
+          "linkedPhotoId": "EgyptianGallery_4"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 120.12000017482,
+          "rotateX": -9.4599997652394,
+          "linkedPhotoId": "EgyptianGallery_7"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 84.600000285916,
+          "rotateX": -3.02,
+          "linkedPhotoId": "EgyptianGallery_8",
+          "scale": 0.5
+        },
+        {
+          "title": "Sarcophagus",
+          "description": "Red granite sarcophagus decorated with palace-façade panelling; slightly vaulted lid retains handling-bosses at either end.",
+          "type": "model",
+          "text1":"Red Granite",
+          "text2":"5th Dynasty",
+          "text3":"2400 BC",
+          "origin": "Giza, tomb LG 98",
+          "rotateY": 104.5799,
+          "rotateX": -16.4323,
+          "model": "models/sarcophagus.obj",
+          "material": "models/Sarcophagus.mtl",
+          "texture": "models/Sarcophagus_0.jpg",
+          "scale": 1,
+          "rotation": [0,0,0],
+          "translation": [0,0,-30]
+        }
+      ]
+    },
+    "EgyptianGallery_7": {
+      "rotationOffset": -99.700000010581,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_7NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_7NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_7NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_7NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_7NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_7NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -60.739998892122,
+          "rotateX": -5.4399999142694,
+          "linkedPhotoId": "EgyptianGallery_6"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 95.600000411778,
+          "rotateX": -6.98000003712575,
+          "linkedPhotoId": "EgyptianGallery_8"
+        },
+        {
+          "title": "Papyrus-form Column",
+          "description": "Granodiorite column in the form of a papyrus bundle bearing cartouches of Amenhotep III, Merenptah and Setnakht on abacus, buds and shaft.",
+          "type": "model",
+          "text1":"Granodiorite",
+          "text2":"18th Dynasty",
+          "text3":"1390-1352 BC",
+          "origin": "Heliopolis, temple of Horus (unlocated)",
+          "rotateY": 85.843,
+          "rotateX": 5,
+          "model": "models/papyrus_column_1.obj",
+          "material": "models/PapyrusColumn.mtl",
+          "texture": "models/PapyrusColumn.jpg",
+          "scale": 1,
+          "rotation": [0,0,0],
+          "translation": [0,0,-25]
+        },
+        {
+          "title": "Sarcophagus",
+          "description": "Red granite sarcophagus decorated with palace-façade panelling; slightly vaulted lid retains handling-bosses at either end.",
+          "type": "model",
+          "text1":"Red Granite",
+          "text2":"5th Dynasty",
+          "text3":"2400 BC",
+          "origin": "Giza, tomb LG 98",
+          "rotateY": -40.5799,
+          "rotateX": -16.4323,
+          "model": "models/sarcophagus.obj",
+          "material": "models/Sarcophagus.mtl",
+          "texture": "models/Sarcophagus_0.jpg",
+          "scale": 1,
+          "rotation": [0,0,0],
+          "translation": [0,0,-30]
+        }
+      ]
+    },
+    "EgyptianGallery_8": {
+      "rotationOffset": -97.299999727185,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_8NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_8NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_8NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_8NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_8NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_8NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -79.659999971501,
+          "rotateX": -6.8800000114562,
+          "linkedPhotoId": "EgyptianGallery_7"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 92.099999701308,
+          "rotateX": -6.8199999270443,
+          "linkedPhotoId": "EgyptianGallery_9"
+        },
+        {
+          "title": "Papyrus-form Column",
+          "description": "Granodiorite column in the form of a papyrus bundle bearing cartouches of Amenhotep III, Merenptah and Setnakht on abacus, buds and shaft.",
+          "type": "model",
+          "text1":"Granodiorite",
+          "text2":"18th Dynasty",
+          "text3":"1390-1352 BC",
+          "origin": "Heliopolis, temple of Horus (unlocated)",
+          "rotateY": -47.025,
+          "rotateX": 6.376,
+          "model": "models/papyrus_column_2.obj",
+          "material": "models/PapyrusColumn2.mtl",
+          "texture": "models/PapyrusColumn2.jpg",
+          "scale": 1,
+          "rotation": [0,0,0],
+          "translation": [0,0,-25]
+        }
+      ]
+    },
+    "EgyptianGallery_9": {
+      "rotationOffset": 0,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_9NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_9NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_9NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_9NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_9NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_9NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 184.3600000977,
+          "rotateX": -6.7800000024217,
+          "linkedPhotoId": "EgyptianGallery_8"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -2.3399998599071,
+          "rotateX": -2,
+          "scale": 0.7,
+          "linkedPhotoId": "EgyptianGallery_10"
+        },
+        {
+          "title": "The Rosetta Stone",
+          "description": "Part of grey and pink granodiorite stela bearing priestly decree concerning Ptolemy V in three blocks of text: Hieroglyphic (14 lines), Demotic (32 lines) and Greek (54 lines). The inscription is a decree passed by a council of priests, one of a series that affirm the royal cult of the 13 year-old Ptolemy V on the first anniversary of his coronation.",
+          "type": "model",
+          "text1":"Grey/Pink Granodiorite",
+          "text2":"Ptolemaic Period",
+          "text3":"196 BC",
+          "origin": "Fort Saint Julien, el-Rashid, Egypt",
+          "rotateY": -20,
+          "rotateX": -2,
+          "model": "models/rosetta_stone.obj",
+          "texture": "models/tenK.jpg",
+          "material": "models/rosetta_stone.mtl",
+          "scale": 1,
+          "rotation": [180,10,0],
+          "translation": [0,5,-30]
+        }
+      ]
+    },
+    "EgyptianGallery_10": {
+      "rotationOffset": 84.19999992717,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_10NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_10NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_10NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_10NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_10NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_10NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 97.100000177134,
+          "rotateX": -6.8799999887418,
+          "linkedPhotoId": "EgyptianGallery_9"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -82.400000090897,
+          "rotateX": -6.679999996541,
+          "linkedPhotoId": "EgyptianGallery_11"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 38.780000145334,
+          "rotateX": -6.49999999552727,
+          "linkedPhotoId": "EgyptianGallery_15"
+        },
+        {
+          "title": "The Rosetta Stone",
+          "description": "Part of grey and pink granodiorite stela bearing priestly decree concerning Ptolemy V in three blocks of text: Hieroglyphic (14 lines), Demotic (32 lines) and Greek (54 lines). The inscription is a decree passed by a council of priests, one of a series that affirm the royal cult of the 13 year-old Ptolemy V on the first anniversary of his coronation.",
+          "type": "model",
+          "text1":"Grey/Pink Granodiorite",
+          "text2":"Ptolemaic Period",
+          "text3":"196 BC",
+          "origin": "Fort Saint Julien, el-Rashid, Egypt",
+          "rotateY": 114,
+          "rotateX": -3,
+          "model": "models/rosetta_stone.obj",
+          "texture": "models/tenK.jpg",
+          "material": "models/rosetta_stone.mtl",
+          "scale": 1,
+          "rotation": [180,10,0],
+          "translation": [0,5,-30]
+        }
+      ]
+    },
+    "EgyptianGallery_11": {
+      "rotationOffset": -93.600000073475,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_11NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_11NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_11NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_11NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_11NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_11NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -82.680000014369,
+          "rotateX": -6.96000003199161,
+          "linkedPhotoId": "EgyptianGallery_10"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 98.560000047831,
+          "rotateX": -4.8199995802978,
+          "linkedPhotoId": "EgyptianGallery_12"
+        },
+        {
+          "title": "Statue of Roy",
+          "description": "Granodiorite squatting figure of Roy, High Priest of Amun during the reigns of Ramses II, Merenptah and Sety II, holding a Hathor-headed sistrum before, the dorsal pillar is inscribed with two vertical registers of hieroglyphs - invocations to Amun-Ra and Mut; lower section lost.",
+          "type": "model",
+          "text1":"Graniodorite",
+          "text2":"19th Dynasty",
+          "text3":"1220-1200 BC",
+          "origin": "From Thebes, Karnak, temple of Mut",
+          "rotateY": 82,
+          "rotateX": -8,
+          "model": "models/statue_roy.obj",
+          "material": "models/statueRoy.mtl",
+          "texture": "models/statueRoy.jpg",
+          "scale": 3,
+          "rotation": [0,90,0],
+          "translation": [0,0,-45]
+        }
+      ]
+    },
+    "EgyptianGallery_12": {
+      "rotationOffset": -89.000000016622,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_12NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_12NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_12NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_12NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_12NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_12NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -90.679999884062,
+          "rotateX": -6.7600000373633,
+          "linkedPhotoId": "EgyptianGallery_11"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 63.780000443723,
+          "rotateX": -6.5999999515753,
+          "linkedPhotoId": "EgyptianGallery_13"
+        },
+        {
+          "title": "Statue of Roy",
+          "description": "Granodiorite squatting figure of Roy, High Priest of Amun during the reigns of Ramses II, Merenptah and Sety II, holding a Hathor-headed sistrum before, the dorsal pillar is inscribed with two vertical registers of hieroglyphs - invocations to Amun-Ra and Mut; lower section lost.",
+          "type": "model",
+          "text1":"Graniodorite",
+          "text2":"19th Dynasty",
+          "text3":"1220-1200 BC",
+          "origin": "From Thebes, Karnak, temple of Mut",
+          "rotateY": -70,
+          "rotateX": -25,
+          "model": "models/statue_roy.obj",
+          "material": "models/statueRoy.mtl",
+          "texture": "models/statueRoy.jpg",
+          "scale": 3,
+          "rotation": [0,90,0],
+          "translation": [0,0,-45]
+        },
+        {
+          "title": "Ram sphinx of King Taharqo",
+          "description": "Granitic gneiss sphinx of the ram of Amun protecting figure of Taharqo between folded front legs; the rectangular base, which has been partially restored, is inscribed with a continuous horizontal register of hieroglyphs.",
+          "type": "model",
+          "text1":"Granodiorite gneiss",
+          "text2":"25th Dynasty",
+          "text3":"690-664 BC",
+          "origin": "Sudan, Kawa",
+          "rotateY": 36.32383551176827,
+          "rotateX": -5.502183518227169,
+          "model": "models/ram_1.obj",
+          "material": "models/ram.mtl",
+          "texture": "models/ram.jpg",
+          "scale": 3,
+          "rotation": [0,190,0],
+          "translation": [0,0,-40]
+        }
+      ]
+    },
+    "EgyptianGallery_13": {
+      "rotationOffset": -93.099999175564,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_13NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_13NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_13NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_13NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_13NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_13NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -103.98000005576,
+          "rotateX": -6.15999993339297,
+          "linkedPhotoId": "EgyptianGallery_12"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 95.439998600037,
+          "rotateX": 1,
+          "scale": 0.5,
+          "linkedPhotoId": "EgyptianGallery_14"
+        },
+        {
+          "title": "Ram sphinx of King Taharqo",
+          "description": "Granitic gneiss sphinx of the ram of Amun protecting figure of Taharqo between folded front legs; the rectangular base, which has been partially restored, is inscribed with a continuous horizontal register of hieroglyphs.",
+          "type": "model",
+          "text1":"Granodiorite gneiss",
+          "text2":"25th Dynasty",
+          "text3":"690-664 BC",
+          "origin": "Sudan, Kawa",
+          "rotateY": -78,
+          "rotateX": -10,
+          "model": "models/ram_2.obj",
+          "material": "models/ram2.mtl",
+          "texture": "models/ram2.jpg",
+          "scale": 3,
+          "rotation": [0,0,0],
+          "translation": [0,0,-40]
+        },
+        {
+          "title": "Offering table of Nesptah",
+          "description": "This offering table, from a temple or tomb, bears a depiction of a mat laid with food offerings: loaves of bread, water vessels and fowl. Ritual libations were poured over the images to purify them for magical consumption by the owner’s spirit. The water ran off via the spout. The inscriptions identify the owner as Nesptah, son of the Governor Montuemhat (see the two objects on the left). Nesptah inherited his father’s worldly and priestly offices.",
+          "type": "model",
+          "text1":"Granodiorite",
+          "text2":"26th Dynasty",
+          "text3":"650 BC",
+          "origin": "Thebes, probably from Asasif",
+          "rotateY": 20,
+          "rotateX": -4,
+          "model": "models/nesptah.obj",
+          "material": "models/nesptah.mtl",
+          "texture": "models/nesptah.jpg",
+          "scale": 3,
+          "rotation": [30,180,0],
+          "translation": [0,-5,-30]
+        },
+        {
+          "title": "Colossal scarab",
+          "description": "This is one of the largest representations of scarab beetles to survive. It also ranks among the last great statues of any pharaonic deity. The scarab represented Khepri, the form assumed by the sun-god at dawn. The Egyptians noticed that scarabs hatch from buried dung balls as if by self-creation. The sun-god was also believed to be self-creating, renewing his powers each night before his rebirth at daybreak. Each sunrise was a repetition of the god’s first appearance at the dawn of time as the creator god Atum.",
+          "type": "model",
+          "text1":"Quarz Diorite",
+          "text2":"Ptolemaic Period",
+          "text3":"1388–1350 BC",
+          "origin": "Istanbul; probably originally from Heliopolis, temple of Atum",
+          "rotateY": 95.1348,
+          "rotateX": -10,
+          "model": "models/scarab.obj",
+          "material": "models/scarab.mtl",
+          "texture": "models/scarab.jpg",
+          "hotspotScale": 0.5,
+          "scale": 3,
+          "rotation": [0,0,0],
+          "translation": [0,0,-25]
+        }
+      ]
+    },
+    "EgyptianGallery_14": {
+      "rotationOffset": -179.00000018515,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_14NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_14NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_14NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_14NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_14NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_14NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 2.4599999116735,
+          "rotateX": -0.74000002798601,
+          "linkedPhotoId": "EgyptianGallery_13"
+        },
+        {
+          "type": "roomnavigation",
+          "text": "To the Tomb-chapel of Nebamun",
+          "rotateY": 179.77999982685,
+          "rotateX": 0,
+          "linkedPhotoId": "Rm61-63_2",
+          "icon":"icons/ic_stairs.png"
+        },
+        {
+          "title": "Colossal scarab",
+          "description": "This is one of the largest representations of scarab beetles to survive. It also ranks among the last great statues of any pharaonic deity. The scarab represented Khepri, the form assumed by the sun-god at dawn. The Egyptians noticed that scarabs hatch from buried dung balls as if by self-creation. The sun-god was also believed to be self-creating, renewing his powers each night before his rebirth at daybreak. Each sunrise was a repetition of the god’s first appearance at the dawn of time as the creator god Atum.",
+          "type": "model",
+          "text1":"Quarz Diorite",
+          "text2":"Ptolemaic Period",
+          "text3":"1388–1350 BC",
+          "origin": "Istanbul; probably originally from Heliopolis, temple of Atum",
+          "rotateY": 0.1348,
+          "rotateX": -25,
+          "model": "models/scarab.obj",
+          "material": "models/scarab.mtl",
+          "texture": "models/scarab.jpg",
+          "scale": 3,
+          "rotation": [0,0,0],
+          "translation": [0,0,-25]
+        }
+      ]
+    },
+    "EgyptianGallery_15": {
+      "rotationOffset": 9.70000071034,
+      "ambientAudioId": "4_introduction_EN",
+      "uri": [
+        "cubemaps/EgyptianGallery_15NoCamera_50MP0.jpg",
+        "cubemaps/EgyptianGallery_15NoCamera_50MP1.jpg",
+        "cubemaps/EgyptianGallery_15NoCamera_50MP2.jpg",
+        "cubemaps/EgyptianGallery_15NoCamera_50MP3.jpg",
+        "cubemaps/EgyptianGallery_15NoCamera_50MP4.jpg",
+        "cubemaps/EgyptianGallery_15NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -65.97999952644,
+          "rotateX": 0.27999994606416,
+          "linkedPhotoId": "EgyptianGallery_10"
+        }
+      ]
+    },
+    "Rm61-63_2": {
+      "rotationOffset": 0,
+      "ambientAudioId": "61_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_2NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_2NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_2NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_2NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_2NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_2NoCamera_50MP5.jpg"
+      ],
+      "sponsor": "The Michael Cohen Gallery",
+      "tooltips": [
+        {
+          "type": "roomnavigation",
+          "text": "To the Egyptian Sculpture Gallery",
+          "rotateY": -145.17999872954,
+          "rotateX": 0,
+          "linkedPhotoId": "EgyptianGallery_14",
+          "icon":"icons/ic_stairs.png"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -46.299999842741,
+          "rotateX": -3.3200000451382,
+          "linkedPhotoId": "Rm61-63_3"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -9.500001841307,
+          "rotateX": -1.32,
+          "linkedPhotoId": "Rm61-63_4"
+        },
+        {
+          "type": "textblock",
+          "title": "The tomb-chapel of Nebamun",
+          "text": "Ancient Egyptian life and death\n\nNebamun was a rich accountant in the Temple of Amun at Thebes (modern Karnak) in about 1350 BC. The chapel in his tomb was decorated with extraordinarily beautiful paintings showing how the wealthy wanted their lives to be seen for eternity. But not everyone was so lucky in life or death.\n\nThe tomb-chapel paintings show an idealised vision of life. Other objects in this gallery hint at the actual experience of living in Egypt for both rich and poor.\n\n\nThe British Museum is committed to curating human remains with care, respect and dignity: http://www.britishmuseum.org/about_us/management/human_remains.aspx",
+          "rotateY": -27,
+          "rotateX": 0,
+          "width": 1.5,
+          "height": 1.5
+        }
+      ]
+    },
+    "Rm61-63_3": {
+      "rotationOffset": 0,
+      "ambientAudioId": "61_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_3NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_3NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_3NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_3NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_3NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_3NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 139.21999945045,
+          "rotateX": -5.5599999403655,
+          "linkedPhotoId": "Rm61-63_2"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 26.900000039691,
+          "rotateX": -3.6199998074569,
+          "linkedPhotoId": "Rm61-63_4"
+        }
+      ]
+    },
+    "Rm61-63_4": {
+      "rotationOffset": 0,
+      "ambientAudioId": "61_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_4NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_4NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_4NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_4NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_4NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_4NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -143.93999964588,
+          "rotateX": -4.3199998791042,
+          "linkedPhotoId": "Rm61-63_3"
+        },
+        {
+          "type": "roomnavigation",
+          "text": "To Egyptian death and afterlife: Mummies (Room 62)",
+          "rotateY": 3.5000016667997,
+          "rotateX": 0,
+          "linkedPhotoId": "Rm61-63_5",
+          "icon":"icons/ic_stairs.png"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 166.21999553685,
+          "rotateX": -1.9000000007497,
+          "linkedPhotoId": "Rm61-63_2"
+        }
+      ]
+    },
+    "Rm61-63_5": {
+      "rotationOffset": -91.300003099525,
+      "ambientAudioId": "62_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_5NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_5NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_5NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_5NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_5NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_5NoCamera_50MP5.jpg"
+      ],
+      "sponsor": "The Roxie Walker Galleries",
+      "tooltips": [
+        {
+          "type": "roomnavigation",
+          "text": "To The Tomb-chapel of Nebamum",
+          "rotateY": -86.539998353643,
+          "rotateX": 0,
+          "linkedPhotoId": "Rm61-63_4",
+          "icon":"icons/ic_stairs.png"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 90.360003499505,
+          "rotateX": -20.620000319987,
+          "linkedPhotoId": "Rm61-63_6"
+        },
+        {
+          "type": "textblock",
+          "title": "Egyptian funerary archaeology",
+          "text": "2686 BC - AD 395\n\nThese galleries explore the ancient Egyptians’ attitude to death and the afterlife, and the preparations that ensured the successful transition of the deceased from earthly life to immortality. The wall cases focus on equipping the dead, through mummification, magic and ritual. The central cases illustrate the evolution of the main components of the burial and their changing relationship through time.\n\n\nThe British Museum is committed to curating human remains with care, respect and dignity: http://www.britishmuseum.org/about_us/management/human_remains.aspx",
+          "rotateY": 40,
+          "rotateX": -3,
+          "width": 1.55,
+          "height": 1.5
+        }
+      ]
+    },
+    "Rm61-63_6": {
+      "rotationOffset": -88.359998779475,
+      "ambientAudioId": "62_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_6NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_6NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_6NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_6NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_6NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_6NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -87.040002728387,
+          "rotateX": -1.9199994628659,
+          "linkedPhotoId": "Rm61-63_5"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 41.280000929484,
+          "rotateX": -6.9199996819723,
+          "linkedPhotoId": "Rm61-63_7"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 93.099995713331,
+          "rotateX": -9.4399999363448,
+          "linkedPhotoId": "Rm61-63_8"
+        }
+      ]
+    },
+    "Rm61-63_7": {
+      "rotationOffset": -162.83999982058,
+      "ambientAudioId": "62_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_7NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_7NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_7NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_7NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_7NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_7NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -22.919999740209,
+          "rotateX": -6.1600000345087,
+          "linkedPhotoId": "Rm61-63_6"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 263.64000229948,
+          "rotateX": -18.13999968963,
+          "linkedPhotoId": "Rm61-63_8"
+        }
+      ]
+    },
+    "Rm61-63_8": {
+      "rotationOffset": -93.739999742853,
+      "ambientAudioId": "62_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_8NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_8NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_8NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_8NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_8NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_8NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -87.779998499243,
+          "rotateX": -1.5599997075664,
+          "linkedPhotoId": "Rm61-63_6"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 10.780003505726,
+          "rotateX": -7.3400002383256,
+          "linkedPhotoId": "Rm61-63_7"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 92.200003506153,
+          "rotateX": -5.7000002389214,
+          "linkedPhotoId": "Rm61-63_9"
+        }
+      ]
+    },
+    "Rm61-63_9": {
+      "rotationOffset": 89.639995938989,
+      "ambientAudioId": "62_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_9NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_9NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_9NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_9NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_9NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_9NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 92.860002433192,
+          "rotateX": -23.320000113894,
+          "linkedPhotoId": "Rm61-63_8"
+        },
+        {
+          "type": "roomnavigation",
+          "text": "To Egyptian death and afterlife: Mummies (Room 63)",
+          "rotateY": -88.419993151378,
+          "rotateX": 0,
+          "linkedPhotoId": "Rm61-63_10",
+          "icon":"icons/ic_stairs.png"
+        }
+      ]
+    },
+    "Rm61-63_10": {
+      "rotationOffset": 91.379997611446,
+      "ambientAudioId": "63_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_10nocameras_50MP0.jpg",
+        "cubemaps/Rm61-63_10nocameras_50MP1.jpg",
+        "cubemaps/Rm61-63_10nocameras_50MP2.jpg",
+        "cubemaps/Rm61-63_10nocameras_50MP3.jpg",
+        "cubemaps/Rm61-63_10nocameras_50MP4.jpg",
+        "cubemaps/Rm61-63_10nocameras_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "roomnavigation",
+          "text": "To Egyptian death and afterlife: Mummies (Room 62)",
+          "rotateY": 91.520004061121,
+          "rotateX": 0,
+          "linkedPhotoId": "Rm61-63_9",
+          "icon":"icons/ic_stairs.png"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -88.959994852448,
+          "rotateX": -7.4599999287532,
+          "linkedPhotoId": "Rm61-63_11"
+        }
+      ]
+    },
+    "Rm61-63_11": {
+      "rotationOffset": 89.979996447504,
+      "ambientAudioId": "63_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_11NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_11NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_11NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_11NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_11NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_11NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 89.560002186665,
+          "rotateX": -8.9999997845729,
+          "linkedPhotoId": "Rm61-63_10"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -90.559993347701,
+          "rotateX": -15.879999851446,
+          "linkedPhotoId": "Rm61-63_12"
+        }
+      ]
+    },
+    "Rm61-63_12": {
+      "rotationOffset": -90.020003187307,
+      "ambientAudioId": "63_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_12NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_12NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_12NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_12NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_12NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_12NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -87.99999650847,
+          "rotateX": -13.460000134959,
+          "linkedPhotoId": "Rm61-63_11"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 90.880005962876,
+          "rotateX": -16.499999775108,
+          "linkedPhotoId": "Rm61-63_13"
+        }
+      ]
+    },
+    "Rm61-63_13": {
+      "rotationOffset": 92.039997030392,
+      "ambientAudioId": "63_introduction_en",
+      "uri": [
+        "cubemaps/Rm61-63_13NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_13NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_13NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_13NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_13NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_13NoCamera_50MP5.jpg"
+      ],
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 92.660002636209,
+          "rotateX": -20.220000729943,
+          "linkedPhotoId": "Rm61-63_12"
+        },
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": -87.819995157693,
+          "rotateX": -10.360000363486,
+          "linkedPhotoId": "Rm61-63_14"
+        }
+      ]
+    },
+    "Rm61-63_14": {
+      "rotationOffset": 88.079998540875,
+      "uri": [
+        "cubemaps/Rm61-63_14NoCamera_50MP0.jpg",
+        "cubemaps/Rm61-63_14NoCamera_50MP1.jpg",
+        "cubemaps/Rm61-63_14NoCamera_50MP2.jpg",
+        "cubemaps/Rm61-63_14NoCamera_50MP3.jpg",
+        "cubemaps/Rm61-63_14NoCamera_50MP4.jpg",
+        "cubemaps/Rm61-63_14NoCamera_50MP5.jpg"
+      ],
+      "ambientAudioId": "63_introduction_en",
+      "tooltips": [
+        {
+          "type": "scenenavigation",
+          "text": "go",
+          "rotateY": 92.460001855763,
+          "rotateX": -14.020000359277,
+          "linkedPhotoId": "Rm61-63_13"
+        },
+        {
+          "type": "textblock",
+          "title": "Egyptian funerary archaeology",
+          "text": "2686 BC - AD 395\n\nThese galleries explore the ancient Egyptians’ attitude to death and the afterlife, and the preparations that ensured the successful transition of the deceased from earthly life to immortality. The wall cases focus on equipping the dead, through mummification, magic and ritual. The central cases illustrate the evolution of the main components of the burial and their changing relationship through time.\n\n\nThe British Museum is committed to curating human remains with care, respect and dignity: http://www.britishmuseum.org/about_us/management/human_remains.aspx",
+          "rotateY": 35,
+          "rotateX": -3,
+          "width": 1.55,
+          "height": 1.5
+        }
+      ]
+    }
+  },
+  "firstPhotoId": "EgyptianGallery_Entry",
+  "firstPhotoRotation": 0
+}

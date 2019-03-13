@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>The British Museum</title>
+    <style>body { margin: 0; }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./static_assets/style.css" type="text/css" />
+  </head>
+  <body>
+    <audio controls id='audio' style='display:none'></audio>
+    <!-- When you're ready to deploy your app, update this line to point to your compiled client.bundle.js -->
+    <script src="build/client.bundle.js?platform=vr"></script>
+    <script>
+
+
+      // Initialize the React VR application
+      ReactVR.init(
+        'build/index.bundle.js?platform=vr&dev=true',
+        document.body);
+
+      // TODO: Call this when all assets have loaded.
+      // TODO2: Add a progress bar
+    
+    </script>
+  </body>
+</html>

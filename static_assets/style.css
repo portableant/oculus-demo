@@ -1,0 +1,398 @@
+@font-face {
+  font-family: 'Lab Grotesque';
+  font-weight: 400;
+  font-style: normal;
+  src: url('fonts/lab-grotesque-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lab Grotesque';
+  font-weight: 700;
+  font-style: normal;
+  src: url('fonts/lab-grotesque-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lab Grotesque';
+  font-weight: 300;
+  font-style: normal;
+  src: url('fonts/lab-grotesque-light.woff') format('woff');
+}
+
+.container {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10000000000000;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lab Grotesque';
+  color: #fff;
+  background-color: rgba(0,0,0,0.9);
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+.container--open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 20px 40px;
+}
+.overlay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.model {
+  user-select: none;
+  height: 50vh;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.close {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-top: -15px;
+  margin-right: -15px;
+  background: url('x.png') center center no-repeat;
+  background-size: 18px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.2s;
+}
+.audioControlsContainer {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  top: 20px;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  margin-left: auto;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  right: 18px;
+  vertical-align: top;
+  width: 30px;
+}
+.audioControls {
+  width: 30px;
+  height: 30px;
+  background: url('icons/ic_headphones.png') center center no-repeat;
+  background-size: 30px;
+}
+.audioControlsOpen {
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.galleryOverlayContainer {
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  top: 65px;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  margin-left: auto;
+  padding: 4px;
+  position: absolute;
+  opacity: 0;
+  right: 18px;
+  vertical-align: top;
+  width: 30px;
+}
+.galleryOverlay {
+  width: 30px;
+  height: 30px;
+  background: url('icons/ic_stairs.png') center center no-repeat;
+  background-size: 30px;
+}
+.galleryOverlayOpen {
+  cursor: pointer;
+  opacity: 1;
+  pointer-events: auto;
+}
+.close:hover {
+  opacity: 1;
+}
+.mobile-header {
+  margin-top: -10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 20px;
+}
+.mobile-header-title {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+  letter-spacing: 0.02em;
+}
+.mobile-header-info {
+  opacity: 0.4;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+}
+.rotate-instruction {
+  opacity: 0.4;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+}
+.rotate-instruction--desktop {
+  display: none;
+}
+.desktop-header {
+  display: none;
+}
+.description {
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 15px;
+  padding-top: 38px;
+  padding-bottom: 41px;
+}
+.rotate-icon {
+  background: url('rotate.png') center center no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  margin: 0 10px;
+}
+.map-container {
+  display: none;
+}
+.fact-box {
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+@media (min-width: 1000px) {
+  .wrapper {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.96);
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s cubic-bezier(0.045, 0.510, 0.395, 1.000);
+  }
+  .content-solo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.96);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s cubic-bezier(0.045, 0.510, 0.395, 1.000);
+  }
+  .container.open .content {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .close {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    background-size: 30px;
+  }
+  .mobile-header {
+    display: block;
+    width: 100%;
+  }
+  .mobile-header .title {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 0;
+    letter-spacing: 0.02em;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .mobile-header-info {
+    opacity: 0.4;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.15em;
+  }
+  .description-container .fact-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .description-container {
+    flex: 0 0 auto;
+    order: 0;
+    width: 300px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .description-container-solo {
+    margin: auto;
+    flex: 0 0 auto;
+    order: 2;
+    width: 300px;
+  }
+  .description-container .info {
+    text-align: justify;
+  }
+  .description {
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    line-height: 25px;
+    border-top: none;
+    height: 358px;
+  }
+  .model-container {
+    flex: 1 1 auto;
+    order: 1;
+  }
+  .rotate-instruction--desktop {
+    display: block;
+  }
+  .rotate-instruction--mobile {
+    display: none;
+  }
+  .model {
+    height: 482px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .map-container {
+    display: block;
+    flex: 0 0 auto;
+    width: 300px;
+    order: 2;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .map-container .fact-box {
+    margin-top: 60px;
+  }
+  .map {
+    margin-top: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  #slider {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    right: 65px;
+    top: 20px;
+    transform: translateX(120%);
+    transition: opacity 1s;
+    -webkit-transform: translateX(120%);
+  }
+
+  .slider-pause-control {
+    float:left;
+    background: url('icons/ic_pause.png') center center no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider-play-control {
+    float:left;
+    background: url('icons/ic_play.png') center center no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider-mute-control {
+    float:right;
+    background: url('icons/ic_volume_up.png') center center no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider-unmute-control {
+    float:right;
+    background: url('icons/ic_volume_off.png') center center no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+  }
+
+  .slide-in {
+      opacity: 1;
+      cursor: pointer;
+      pointer-events: auto;
+      animation: slide-in 1s forwards;
+      -webkit-animation: slide-in 1s forwards;
+  }
+
+  .slide-out {
+      opacity: 0;
+      pointer-events: none;
+      animation: slide-out 1s forwards;
+      -webkit-animation: slide-out 1s forwards;
+  }
+
+  @keyframes slide-in {
+      100% { transform: translateX(0%); }
+  }
+
+  @-webkit-keyframes slide-in {
+      100% { -webkit-transform: translateX(0%); }
+  }
+
+  @keyframes slide-out {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(120%); }
+  }
+
+  @-webkit-keyframes slide-out {
+      0% { -webkit-transform: translateX(0%); }
+      100% { -webkit-transform: translateX(120%); }
+  }
+}
